@@ -27,7 +27,7 @@ def allie_to_horde(pt):
     ct = ''
     for letter in str(pt):
         if letter in ally_horde:
-            ct += ally_horde[letter]
+            ct += str(ally_horde[letter] + ' ')
     return ct
 
 
